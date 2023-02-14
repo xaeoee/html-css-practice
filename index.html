@@ -7,12 +7,19 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>
-      <a href="#contact">contact us</a>
-    </h1>
-    <a href="https://www.naver.com/" target="_blank">
-      <img src="coding.png" alt="new tap" />
-    </a>
-    <p id="contact">010 6394 3274</p>
+    <form action="./01-result.html" method="get">
+      <label for="name">이름</label>
+      <input id="name" name="my-name" type="text" />
+
+      <br /><br />
+
+      <label for="age">나이</label>
+      <input id="age" name="my-age" type="number" />
+
+      <br /><br />
+
+      <button type="submit">제출</button>
+      <button type="reset">초기화</button>
+    </form>
   </body>
 </html>
